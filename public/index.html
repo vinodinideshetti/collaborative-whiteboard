@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Collaborative Whiteboard</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #f9f9f9;
+    }
+    canvas {
+      border: 2px solid #000;
+      display: block;
+      margin-top: 10px;
+    }
+    .controls {
+      margin-top: 10px;
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="controls">
+    <button onclick="clearBoard()">Clear Board</button>
+    <button onclick="saveBoard()">Save as Image</button>
+
+    <label>
+      Color: <input type="color" id="colorPicker" value="#000000" />
+    </label>
+
+    <label>
+      Brush Size: <input type="range" id="brushSize" min="1" max="10" value="2" />
+    </label>
+  </div>
+
+  <canvas id="board" width="800" height="600"></canvas>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
