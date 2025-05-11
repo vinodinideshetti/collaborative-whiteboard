@@ -26,4 +26,6 @@ In conclusion, this collaborative whiteboard successfully meets the internship t
 - **Visual Studio Code** – Primary code editor used for writing and organizing the project files.
 - **Google Chrome** – Used for running and testing the application in multiple tabs for real-time sync.
   **Screenshots**
-  ![Whiteboard Screenshot]
+  ![Whiteboard Screenshot](https://github.com/vinodinideshetti/collaborative-whiteboard/blob/main/Whiteboard%20Canvas.png)
+  ![Title and Canvas screenshot](https://github.com/vinodinideshetti/collaborative-whiteboard/blob/main/Title%20and%20Canvas.png)
+  ![reat-time drawing screenshot](https://github.com/vinodinideshetti/collaborative-whiteboard/blob/main/Real-time%20Drawing.png)
