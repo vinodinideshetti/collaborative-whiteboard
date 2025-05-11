@@ -25,3 +25,5 @@ In conclusion, this collaborative whiteboard successfully meets the internship t
 - **GitHub** – Hosted the project repository and codebase for collaboration and submission.
 - **Visual Studio Code** – Primary code editor used for writing and organizing the project files.
 - **Google Chrome** – Used for running and testing the application in multiple tabs for real-time sync.
+  **Screenshots**
+  ![Whiteboard Screenshot]
